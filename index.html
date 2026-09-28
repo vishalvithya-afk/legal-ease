@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LegalEase AI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="logo">⚖️ LegalEase AI</div>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#analyzer">Analyzer</a>
+        <a href="#about">About</a>
+    </nav>
+
+    <button onclick="goAnalyzer()">Try AI</button>
+</header>
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="tag">AI POWERED LEGAL INFORMATION</p>
+
+        <h1>
+            Understand Legal Documents
+            <span>More Easily.</span>
+        </h1>
+
+        <p>
+            LegalEase AI helps users understand complicated legal
+            documents using simple and clear language.
+        </p>
+
+        <button class="main-btn" onclick="goAnalyzer()">
+            Analyze Document
+        </button>
+
+        <p class="warning">
+            ⚠️ For educational purposes only. Not a substitute for legal advice.
+        </p>
+
+    </div>
+
+    <div class="hero-card">
+        <div class="scale">⚖️</div>
+        <h2>LegalEase AI</h2>
+        <p>Simple language. Clear information.</p>
+
+        <hr>
+
+        <p>✓ Document Summary</p>
+        <p>✓ Key Clause Detection</p>
+        <p>✓ Simple Explanation</p>
+        <p>✓ Questions to Ask</p>
+    </div>
+
+</section>
+
+
+<section id="features">
+
+    <div class="heading">
+        <p>FEATURES</p>
+        <h2>Legal Information, Simplified</h2>
+    </div>
+
+    <div class="features">
+
+        <div class="feature">
+            <h3>📄 Document Summary</h3>
+            <p>
+                Convert long legal text into a short and simple summary.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>🔍 Key Clauses</h3>
+            <p>
+                Detect important clauses such as payment and termination.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>💡 Simple Explanation</h3>
+            <p>
+                Understand difficult legal words in simple language.
+            </p>
+        </div>
+
+        <div class="feature">
+            <h3>❓ Questions</h3>
+            <p>
+                Generate useful questions to discuss with a lawyer.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="analyzer" class="analyzer">
+
+    <div class="heading">
+        <p>AI ANALYZER</p>
+        <h2>Analyze Legal Text</h2>
+    </div>
+
+    <div class="workspace">
+
+        <div class="input-box">
+
+            <h3>Legal Document</h3>
+
+            <textarea
+                id="legalText"
+                placeholder="Paste your legal document or clause here...">
+            </textarea>
+
+            <select id="task">
+
+                <option value="summary">
+                    Summarize
+                </option>
+
+                <option value="explain">
+                    Explain Simply
+                </option>
+
+                <option value="clauses">
+                    Find Key Clauses
+                </option>
+
+                <option value="questions">
+                    Generate Questions
+                </option>
+
+            </select>
+
+            <button class="analyze-btn" onclick="analyze()">
+                ✨ Analyze with AI
+            </button>
+
+        </div>
+
+
+        <div class="result-box">
+
+            <h3>Analysis Result</h3>
+
+            <div id="result">
+                <p class="empty">
+                    Your analysis will appear here.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="about" class="about">
+
+    <h2>About LegalEase AI</h2>
+
+    <p>
+        LegalEase AI is an educational artificial intelligence project
+        designed to make legal information easier to understand.
+    </p>
+
+    <div class="notice">
+        ⚠️ This application does not provide professional legal advice.
+        Always consult a qualified legal professional for real legal matters.
+    </div>
+
+</section>
+
+
+<footer>
+    © 2026 LegalEase AI | Educational AI Project
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
